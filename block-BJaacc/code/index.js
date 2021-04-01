@@ -40,6 +40,7 @@ let studentsLength = Object.keys(students).length;
 
 // 11. Can you define a key of `let or var` in any object? Reason.
 
+students["let"] = "Enjoy"
 /* Yes We can Define a key of `let or var` in an object because `Key` in an object is a string and string can be any words
    including the keywords defined in JavaScript */ 
 
