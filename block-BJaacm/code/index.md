@@ -20,8 +20,8 @@ let newUser = user;
 
 2. Answer the following with reason:
 
-- `user == newUser;` //  true -copied  by reference
-- `user === newUser;` // true -copied  by reference
+- `user == newUser;` //  true 
+- `user === newUser;` // true 
 - `user.name === newUser.name;` // true
 - `user.name == newUser.name;` // true
 - `user.sibling == newUser.sibling;`// true
@@ -33,5 +33,5 @@ let newUser = user;
 - `brothersCopy == user.sibling;` // true
 - `brothersCopy === user.sibling;` // true
 - `brothersCopy[0] === user.sibling[0];` // true
-- `brothersCopy[1] === user.sibling[1];` // false
+- `brothersCopy[1] === user.sibling[1];` // true
 - `user.sibling[1] === newUser.sibling[1];` // true
